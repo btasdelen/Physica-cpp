@@ -12,9 +12,12 @@ TARGET = Physica
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    rectangle.cpp \
+    bullet.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    rectangle.h \
+    bullet.h
 
-FORMS    += mainwindow.ui
+FORMS    +=
